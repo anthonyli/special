@@ -1,0 +1,19 @@
+@keyframes circleRight {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+.circleRight {
+    animation-name: circleRight;
+    /* 动画指定需要多少秒或毫秒完成 */
+    animation-duration: 3s;
+    /* 动画将如何完成一个周期 */
+    animation-timing-function: linear;
+    /* 定义动画应该播放多少次 */
+    animation-iteration-count: infinite;
+}
