@@ -1,6 +1,6 @@
 .rotate-circleLeft {
     position: absolute;
-    background: url('../images/leidan.png');
+    background: url('../../images/leidan.png');
     width: 87px;
     height: 87px;
     background-repeat: no-repeat;
