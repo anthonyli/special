@@ -1,8 +1,8 @@
-.rotate-root {
+.rotateRoot {
     display: flex;
     margin: 0 auto;
 }
-.rotate-circle {
+.rotateCircle {
     background: url('../../images/dizuo.png');
     width: 136px;
     height: 136px;
