@@ -1,0 +1,12 @@
+.rotate-root {
+    display: flex;
+    margin: 0 auto;
+}
+.rotate-circle {
+    background: url('../../images/dizuo.png');
+    width: 136px;
+    height: 136px;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    margin-right: 20px;
+}
