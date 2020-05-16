@@ -1,6 +1,6 @@
 @keyframes circleLeft {
     from {
-        transform: rotate(calc(var(--transform-rotate) * 360deg));
+        transform: rotate(var(--transform-rotate360));
     }
 
     to {

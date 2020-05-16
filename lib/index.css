@@ -6,3 +6,6 @@
 @import 'rotate/circleRight.css';
 @import 'rotate/circle3dLeft.css';
 @import 'rotate/circle3dRight.css';
+
+/* ripple  */
+@import 'ripple/waterRipple.css';

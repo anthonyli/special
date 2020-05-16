@@ -4,4 +4,5 @@
   --animate-repeat: 1;
   --transform-scale: 1;
   --transform-rotate: 1;
+  --transform-rotate360: 360deg;
 }
