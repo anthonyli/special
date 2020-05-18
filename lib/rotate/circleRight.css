@@ -1,6 +1,6 @@
 @keyframes circleRight {
     from {
-        transform: rotate(calc(var(--transform-rotate) * 0deg));
+        transform: rotate(0deg);
     }
 
     to {
