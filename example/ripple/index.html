@@ -16,22 +16,18 @@
       <div class="waterDrop"></div>
     </div>
     <div class="eventRippleDemo eventRipple">
-      你好
+      点击
     </div>
   </div>
   <script>
     var rippleElements = document.getElementsByClassName('eventRippleDemo');
 
-    //Create Ripple Effect
     function createRipple(e) {
-      //Create Ripple
       ripple = document.createElement("div");
       ripple.className = "ripple-effect";
 
-      //Add Ripple to document
       this.appendChild(ripple);
 
-      //Position Ripple
       ripple.style.top = (e.offsetY - (this.offsetHeight / 2)) + "px";
       ripple.style.left = (e.offsetX - (this.offsetWidth / 2)) + "px";
 
@@ -45,7 +41,6 @@
       this.parentElement.removeChild(this);
     }
 
-    //Add Event Listeners
     for (var i = 0; i < rippleElements.length; i++) {
       rippleElements[i].addEventListener('mousedown', createRipple, false);
       rippleElements[i].addEventListener('touchstart', createRipple, false);
