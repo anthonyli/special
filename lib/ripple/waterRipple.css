@@ -13,36 +13,12 @@
     }
 }
 
-
-@keyframes drip {
-    45% {
-      top: 0;
-      border-radius: 100% 5% 100% 100%;
-      transform: rotate(-45deg);
-    }
-    100% {
-      top: 0;
-      transform: rotate(0deg);
-      border-radius: 100%;
-    }
-  }
-
 .waterRipple {
-    position: absolute;
-    border-radius: 100% 5% 100% 100%;
-    /* transform: rotate(-45deg); */
-    margin: 0px;
-    background: deepskyblue;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
+    position: relative;
+    margin: 0 auto;
     height: 200px;
     width: 200px;
-    animation: drip 4s forwards infinite;
 }
-
 
 .waterRipple:before,
 .waterRipple:after {
