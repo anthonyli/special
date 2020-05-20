@@ -12,3 +12,6 @@
 @import 'ripple/waterDrop.css';
 @import 'ripple/eventRipple.css';
 @import 'ripple/shadowRipple.css';
+
+/* slide  */
+@import 'slide/slideUpDown.css';
