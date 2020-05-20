@@ -1,8 +1,39 @@
+@keyframes ripplePink {
+    0% {
+        box-shadow: 0 4px 10px rgba(255, 65, 130, 0.1),
+            0 0 0 0 rgba(255, 65, 130, 0.1),
+            0 0 0 5px rgba(255, 65, 130, 0.1),
+            0 0 0 10px rgba(255, 65, 130, 0.1);
+    }
+
+    100% {
+        box-shadow: 0 4px 10px rgba(255, 65, 130, 0.1),
+            0 0 0 5px rgba(255, 65, 130, 0.1),
+            0 0 0 10px rgba(255, 65, 130, 0.1),
+            0 0 0 20px rgba(255, 65, 130, 0);
+    }
+}
+
 .root {
     margin: 0 auto;
 }
+
 .eventRippleDemo {
     margin: 0 auto;
     margin-top: 100px;
     width: 50px;
+}
+
+.shadowRipple {
+    margin: 0 auto;
+    margin-top: 100px;
+    animation: none;
+}
+
+.shadowRipple.pink {
+    margin: 0 auto;
+    background: #ff4081;
+    margin-top: 100px;
+    color: white;
+    animation: ripplePink 0.2s linear infinite;
 }

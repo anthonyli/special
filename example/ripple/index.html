@@ -18,13 +18,14 @@
     <div class="eventRippleDemo eventRipple">
       点击
     </div>
+    <div class="shadowRipple pink"></div>
   </div>
   <script>
     var rippleElements = document.getElementsByClassName('eventRippleDemo');
 
     function createRipple(e) {
       ripple = document.createElement("div");
-      ripple.className = "ripple-effect";
+      ripple.className = "rippleEffect";
 
       this.appendChild(ripple);
 
