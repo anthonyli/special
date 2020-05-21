@@ -47,7 +47,7 @@
     transform: translate(-50%, -50%);
 }
 
-.eventPoint .slideUpDown{
+.eventPoint .slideUpDown {
     position: absolute;
     left: 0;
     top: 22px;
@@ -65,7 +65,7 @@
     opacity: 0.8;
 }
 
-.eventCircle > div {
+.eventCircle>div {
     width: 92px;
     height: 44px;
     background: rgba(255, 0, 0, 0.27);
@@ -80,10 +80,20 @@
     transform-origin: 50% 20%;
 }
 
-.eventCircle > div:first-child {
+.eventCircle>div:first-child {
     animation-delay: 0s;
 }
 
-.eventCircle > div:last-child {
+.eventCircle>div:last-child {
     animation-delay: 1s;
+}
+
+.slideJumpContainer {
+    width: 148px;
+    height: 166px;
+}
+
+.slideJump {
+    background: url('../images/ren.png') no-repeat;
+    background-size: 100% 100%;
 }
